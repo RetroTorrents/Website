@@ -1,0 +1,209 @@
+/*spreadsheet made for all webpages in musicbox*/
+* { /*sets the entire webpage's padding and margin to zero*/
+  padding: 0;
+  margin: 0;
+}
+
+body { /*background in red and text font color*/
+  font-family: system-ui, 
+             -apple-system,
+             BlinkMacSystemFont, 
+             "Segoe UI", 
+             "Roboto", 
+             "Oxygen", 
+             "Ubuntu", 
+             "Cantarell", 
+             "Fira Sans", 
+             "Droid Sans", 
+             "Helvetica Neue", 
+             Arial, sans-serif;
+  color: rgb(239, 239, 239);
+  background: rgb(32, 32, 32);
+}
+
+hr { /*extra space*/
+  border: 0px
+}
+
+ol {
+  text-align: left;
+  margin: auto;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*content (text aligned: left)*/
+.content { /*content is on the center*/
+  background: rgba(32, 32, 32);
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.topic {
+  display: flex; /* Use Flexbox for the container */
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center buttons horizontally */
+  justify-content: center; /* Center buttons vertically */
+  padding: 0px 20px 30px 20px;
+}
+
+.topic-section {
+  padding: 30px 0px;
+}
+
+.content-header-xxxl { /*web page's title*/
+  font-size: xxx-large;
+  text-align: left;
+}
+
+.content-header-xxxl-center { /*web page's title*/
+  font-size: xxx-large;
+}
+
+.content-header-xxl { /*big subtitle*/
+  font-size: xx-large;
+  text-align: left;
+}
+
+.content-header-xxl-center { /*big subtitle*/
+  font-size: xx-large;
+}
+
+.content-header-xl { /*small subtitle*/
+  font-size: x-large;
+  text-align: left;
+}
+
+.content-header-xl-center { /*small subtitle*/
+  font-size: x-large;
+}
+
+.content-paragraph { /*paragraphs*/
+  font-size: large;
+  text-align: left;
+}
+
+.content-paragraph-center { /*paragraphs center*/
+  font-size: large;
+}
+/*content end*/
+
+/*-------------------------------------*/
+
+/*links*/
+.content-paragraph-link {
+  color:rgb(32, 32, 32);
+}
+
+a:hover { /*hover over links*/
+  color: rgb(32, 184, 32);
+}
+
+a.active {
+  color: rgb(32, 32, 32);
+}
+
+/*a:visited {
+  color: rgb(0, 239, 239); /*cyan
+}
+*/
+
+
+
+/*-------------------------------------------------------------------------*/
+
+/*Images*/
+
+.image {
+  margin: 30px auto;
+  width: 90%;
+  max-width: 600px;
+  max-height: auto;
+  display: block;
+}
+
+.image-logo {
+  margin: 20px 20px 20px 0px;
+  min-width: 0px;
+  max-width: 340px;
+}
+/*-------------------------------------------------------------------------*/
+
+.btn.btn-primary.btn-lg {
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: rgb(32, 184, 32) !important;
+  background-color: rgb(239, 239, 239) !important;
+  border: 5px solid rgb(32, 184, 32) !important;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: block; /* Make buttons stack vertically */
+  width: auto; /* Let buttons take their natural width */
+  margin-bottom: 10px; /* Add space between buttons */
+}
+
+/* Hover Effect */
+.btn.btn-primary.btn-lg:hover {
+  background-color: rgb(32, 184, 32) !important;
+  color: rgb(239, 239, 239) !important;
+}
+
+/*old button*/
+/*buttons to redirect to other pages (About, Shop and Contact)
+.hyperlink-button {
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 15px 10px 15px;
+  color: rgb(0, 184, 0);
+  background-color: rgb(239, 239, 239);
+  border: rgb(239, 239, 239);
+}
+
+.hyperlink-button:hover {
+  text-decoration: underline;
+}
+*/
+
+.no-underline {
+  color: rgb(32, 184, 32);
+  text-decoration: none;
+}
+
+.no-underline:hover {
+  text-decoration: underline;
+}
+
+.no-underline-not-avaiable {
+  color: rgb(184, 0, 0);
+  text-decoration: none;
+}
+
+.no-underline-not-avaiable:hover {
+  color: rgb(184, 0, 0);
+  text-decoration: underline;
+}
+
+.information-box-roms{
+  float: center;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 340px;
+  border: 3px solid rgb(239, 239, 239);
+  padding: 20px 7px;
+}
+
+.information-box-roms-packs{
+  float: center;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 400px;
+  border: 3px solid rgb(239, 239, 239);
+  padding: 20px 7px;
+}
