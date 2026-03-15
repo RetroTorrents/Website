@@ -191,7 +191,6 @@ a.active {
 }
 
 .information-box-roms{
-  float: center;
   align-items: center;
   margin: 0px auto;
   max-width: 340px;
@@ -200,7 +199,6 @@ a.active {
 }
 
 .information-box-roms-packs{
-  float: center;
   align-items: center;
   margin: 0px auto;
   max-width: 400px;
